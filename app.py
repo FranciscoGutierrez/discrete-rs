@@ -1,6 +1,7 @@
 #coding: utf-8
 
 from flask import Flask, render_template, jsonify
+from durable.lang import *
 app = Flask(__name__)
 
 @app.route("/")
